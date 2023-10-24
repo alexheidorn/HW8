@@ -1,0 +1,35 @@
+merge(){
+    
+
+}
+
+bool compare(){
+
+}
+
+getnext()
+
+heapify()
+
+
+main(){
+    heap1[]
+    heap2[]
+    newHeap[]
+
+    if heap1[0]>heap[0]
+        newHeap[0] = heap1[0]
+        heap1.pop_top
+        heapify(heap1)
+        heap1 = newHeap[1]
+        heap2 = newHeap[2]
+    else
+        newHeap[0] = heap2[0]
+        heap2.pop_top
+        heapify(heap2)
+        heap2 = newHeap[1]
+        heap2 = newHeap[2]
+    
+
+
+}
