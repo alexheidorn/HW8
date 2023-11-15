@@ -1,0 +1,21 @@
+Name: Alex Heidorn
+Teammates: Aidan Carlson, Anna Wolf, Samuel Draeger
+Created: 10/24/23
+
+The best way to combine 2 heaps is to create a new array of size n1 + n2 and put the elements from both
+arrays into the new one and then call heapify on the entire array. This operation costs O(N).
+This is the best option because it will be tough to combine two heaps in the specific heap order
+with 2 heaps of wildly varying sizes. This method doesn't care how big either array are and 
+only calls heapify N/2 times from the last parent node on up.
+
+pseudo code:
+{
+    heap1[n1]
+    heap2[n2]
+
+    newheap[n1 + n2]
+
+    add elelemnts from heap1 & heap2 into newheap
+
+    call heapify on newheap from final parent element and up.
+}
